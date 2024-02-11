@@ -4,11 +4,6 @@ settings:
   autoInstallPeers: true
   excludeLinksFromLockfile: false
 
-dependencies:
-  tianjie:
-    specifier: ^0.0.2
-    version: 0.0.2
-
 devDependencies:
   '@release-it/conventional-changelog':
     specifier: ^5.1.1
@@ -34,6 +29,9 @@ devDependencies:
   commander:
     specifier: ^10.0.1
     version: 10.0.1
+  dotenv-cli:
+    specifier: ^7.3.0
+    version: 7.3.0
   eslint:
     specifier: ^8.42.0
     version: 8.42.0
@@ -46,6 +44,9 @@ devDependencies:
   release-it:
     specifier: ^15.11.0
     version: 15.11.0
+  tianjie:
+    specifier: ^0.0.2
+    version: 0.0.2
   tslib:
     specifier: ^2.5.3
     version: 2.5.3
@@ -1557,6 +1558,26 @@ packages:
     engines: {node: '>=10'}
     dependencies:
       is-obj: 2.0.0
+    dev: true
+
+  /dotenv-cli@7.3.0:
+    resolution: {integrity: sha512-314CA4TyK34YEJ6ntBf80eUY+t1XaFLyem1k9P0sX1gn30qThZ5qZr/ZwE318gEnzyYP9yj9HJk6SqwE0upkfw==}
+    hasBin: true
+    dependencies:
+      cross-spawn: 7.0.3
+      dotenv: 16.4.2
+      dotenv-expand: 10.0.0
+      minimist: 1.2.8
+    dev: true
+
+  /dotenv-expand@10.0.0:
+    resolution: {integrity: sha512-GopVGCpVS1UKH75VKHGuQFqS1Gusej0z4FyQkPdwjil2gNIv+LNsqBlboOzpJFZKVT95GkCyWJbBSdFEFUWI2A==}
+    engines: {node: '>=12'}
+    dev: true
+
+  /dotenv@16.4.2:
+    resolution: {integrity: sha512-rZSSFxke7d9nYQ5NeMIwp5PP+f8wXgKNljpOb7KtH6SKW1cEqcXAz9VSJYVLKe7Jhup/gUYOkaeSVyK8GJ+nBg==}
+    engines: {node: '>=12'}
     dev: true
 
   /eastasianwidth@0.2.0:
@@ -4237,7 +4258,7 @@ packages:
 
   /tianjie@0.0.2:
     resolution: {integrity: sha512-2ahza43PVteSFjXa1u0v+G3wyeFwNM6+BV8I+3sWb6rOWyOB0e38h6fsMyYQuYAjvMzhi4qVMXcif1u/jjaZMg==}
-    dev: false
+    dev: true
 
   /titleize@3.0.0:
     resolution: {integrity: sha512-KxVu8EYHDPBdUYdKZdKtU2aj2XfEx9AfjXxE/Aj0vT06w2icA09Vus1rh6eSu1y01akYg6BjIK/hxyLJINoMLQ==}
