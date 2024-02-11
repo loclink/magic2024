@@ -1,6 +1,9 @@
 #!/usr/bin/env node
+import { registerCommands } from '@/commands';
 import { program } from 'commander';
 import { COMMAND_NAME, PACKAGE_VERSION } from './config';
+
+registerCommands();
 
 program
   .name(COMMAND_NAME)

@@ -1,5 +1,14 @@
 lockfileVersion: '6.0'
 
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+dependencies:
+  tianjie:
+    specifier: ^0.0.2
+    version: 0.0.2
+
 devDependencies:
   '@release-it/conventional-changelog':
     specifier: ^5.1.1
@@ -4225,6 +4234,10 @@ packages:
   /through@2.3.8:
     resolution: {integrity: sha512-w89qg7PI8wAdvX60bMDP+bFoD5Dvhm9oLheFp5O4a2QF0cSBGsBX4qZmadPMvVqlLJBBci+WqGGOAPvcDeNSVg==}
     dev: true
+
+  /tianjie@0.0.2:
+    resolution: {integrity: sha512-2ahza43PVteSFjXa1u0v+G3wyeFwNM6+BV8I+3sWb6rOWyOB0e38h6fsMyYQuYAjvMzhi4qVMXcif1u/jjaZMg==}
+    dev: false
 
   /titleize@3.0.0:
     resolution: {integrity: sha512-KxVu8EYHDPBdUYdKZdKtU2aj2XfEx9AfjXxE/Aj0vT06w2icA09Vus1rh6eSu1y01akYg6BjIK/hxyLJINoMLQ==}

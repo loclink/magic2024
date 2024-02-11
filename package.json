@@ -34,6 +34,7 @@
     "release-it": "^15.11.0",
     "tslib": "^2.5.3",
     "tsup": "^6.7.0",
-    "typescript": "^5.1.3"
+    "typescript": "^5.1.3",
+    "tianjie": "^0.0.2"
   }
 }
