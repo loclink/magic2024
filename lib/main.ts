@@ -9,5 +9,5 @@ program
   .name(COMMAND_NAME)
   .version(PACKAGE_VERSION, '-v, --version')
   .showHelpAfterError()
-  .description('2024年春晚刘谦撕牌魔术过程 nodejs + typescrit 实现')
+  .description('2024年春晚刘谦撕牌魔术过程模拟 nodejs + typescrit 实现')
   .parse(process.argv);
